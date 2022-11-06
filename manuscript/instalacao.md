@@ -10,7 +10,6 @@ Instalações por Distribuições
 
 ```
 sudo pacman -S podman
-
 ```
 
 # Alpine Linux
@@ -43,20 +42,19 @@ No Fedora Silverblue e Fedora CoreOS já vem por padrão o podman no instalaçã
 sudo dnf install podman -y
 ```
 
-#Gentoo
+# Gentoo
 
 ```
 sudo emerge app-containers/podman
-
 ```
 
-#OpenSUSE
+# OpenSUSE
 
 ```
 sudo zypper install podman
 ```
 
-#RHEL7
+# RHEL7
 
 Inscreva-se, ative o canal Extras e instale o Podman.
 
@@ -65,7 +63,7 @@ sudo subscription-manager repos --enable=rhel-7-server-extras-rpms
 sudo yum -y install podman
 ```
 
-#RHEL8
+# RHEL8
 
 O Podman está incluído no container-toolsmódulo, juntamente com o Buildah e o Skopeo.
 ```
@@ -75,7 +73,7 @@ sudo yum module install -y container-tools:rhel8
 
 O container-tools:rhel8 é o fluxo de aplicativo rápido, contendo as versões contínuas mais recentes das ferramentas. Use o container-tools:2.0stream para versões estáveisdo Podman 1.6. O comando "yum module list container-tools" mostra os fluxos disponíveis.
 
-#Ubuntu
+# Ubuntu
 
 O pacote podman está disponível nos repositórios oficiais do Ubuntu 20.10 e mais recentes.
 
