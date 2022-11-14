@@ -38,7 +38,7 @@ Available Commands:
   help        Help about any command
 ```
 
- O mesmo também para podman run --help, podman image, etc...
+ O mesmo também para **podman run --help**, **podman image**, etc...
 
 
 ```
@@ -66,5 +66,19 @@ Options:
 
 O help sempre nos ajuda a todo momento use com sabedoria.
 
+# Info
+
+O comando **podman info** Exibe informações do sistema relacionadas ao Podman como 
+informações pertinentes ao host, estatísticas de armazenamento atuais, registros de contêiner configurados e compilação do podman.
+Com o **podman info** podemos verificar o Registries, é nele onde mostra onde o podman irá buscar por containers, ele também 
+pode ser visto no arquivo **/etc/containers/registries.conf** 
+
+```
+podman info -f '{{range index .Registries "search"}}{{.}}\n{{end}}'
+registry.fedoraproject.org
+registry.access.redhat.com
+docker.io
+quay.io
+```
 
 
