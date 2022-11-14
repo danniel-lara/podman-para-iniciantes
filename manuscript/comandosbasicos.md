@@ -9,13 +9,13 @@ Não abordaremos os comandos de criação de imagem e tratamento de problemas (t
 Assim como a maioria dos comandos vem com a opção --help e no caso do Podman não é diferente 
 
 ```
-podman --help
+$ podman --help
 ```
 
 Exemplo
 
 ```
-podman --help
+$ podman --help
 Manage pods, containers and images
 
 Usage:
@@ -42,7 +42,7 @@ Available Commands:
 
 
 ```
-podman run --help
+$ podman run --help
 Run a command in a new container
 
 Description:
@@ -74,7 +74,7 @@ Com o **podman info** podemos verificar o Registries, é nele onde mostra onde o
 pode ser visto no arquivo **/etc/containers/registries.conf** 
 
 ```
-podman info -f '{{range index .Registries "search"}}{{.}}\n{{end}}'
+$ podman info -f '{{range index .Registries "search"}}{{.}}\n{{end}}'
 registry.fedoraproject.org
 registry.access.redhat.com
 docker.io
