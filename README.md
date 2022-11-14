@@ -8,3 +8,4 @@ Essa Documentação em pt_br irá ajudar na utilização do podman
 
 1. [O que é Podman?](manuscript/oquepodman.md)
 1. [Instalação](manuscript/instalacao.md)
+1. [Comandos básicos](manuscript/comandosbasicos.md)
