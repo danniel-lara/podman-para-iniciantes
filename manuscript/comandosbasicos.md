@@ -1,8 +1,8 @@
 # Comandos básicos
 
-Para utilização do Docker é necessário conhecer alguns comandos e entender de forma clara e direta para que servem, assim como alguns exemplos de uso.
+Para utilização do Podman é necessário conhecer alguns comandos e entender de forma clara e direta para que servem, assim como alguns exemplos de uso.
 
-Não abordaremos os comandos de criação de imagem e tratamento de problemas (troubleshooting) no Docker, pois têm capítulos específicos para o detalhamento.
+Não abordaremos os comandos de criação de imagem e tratamento de problemas (troubleshooting) no Podman, pois têm capítulos específicos para o detalhamento.
 
 # Ajuda 
 
