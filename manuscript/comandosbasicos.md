@@ -2,7 +2,7 @@
 
 Para utilização do Podman é necessário conhecer alguns comandos e entender de forma clara e direta para que servem, assim como alguns exemplos de uso.
 
-Não abordaremos os comandos de criação de imagem e tratamento de problemas (troubleshooting) no Podman, pois têm capítulos específicos para o detalhamento.
+Não abordaremos os comandos de criação de imagem, utilização de Pod e tratamento de problemas (troubleshooting) no Podman, pois têm capítulos específicos para o detalhamento.
 
 # Ajuda 
 
@@ -80,5 +80,33 @@ registry.access.redhat.com
 docker.io
 quay.io
 ```
+
+# Podman Pull
+
+O podman pull copia uma imagem de um registro para a máquina local, e padroniza para a imagem com a tag mais recente (se existir) e a puxa.
+
+Nesse exemplo vamos fiz o pull de uma imagem do nginx onde apareceu vários opções de fazer o pull só escolher com as teclas de seta (para  cima ou para baixo) 
+e selecionar a fonte para pegar a imagem  
+
+![](images/podmanpull.png)
+
+![](images/podmanpull2.png)
+
+Podemos Fazer o Pull direto de um registro informando o caminho todo
+```
+$ podman pull quay.io/nginx:latest
+```
+Também podemos fazer o pull por meio do transporte do docker
+```
+podman pull docker://quay.io/username/myimage
+```
+
+Pull de um diretório local 
+```
+podman pull dir:/tmp/myimage
+```
+
+
+
 
 
