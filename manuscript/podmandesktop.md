@@ -21,3 +21,18 @@ O Podman Desktop instala, configura e mantém o Podman atualizado em seu ambient
 * [ Podman Lima Machines ](https://github.com/lima-vm/lima)
 * [ Docker ](https://github.com/moby/moby)
 
+####  Suporte para atualização do mecanismo Podman
+* Mantenha o `podman` atualizado em seu PC fazendo com que o Podman Desktop instale automaticamente a versão mais recente
+
+####  Suporte à bandeja do sistema
+* Gerencie seu mecanismo de contêiner
+* Defina seu contexto do Kubernetes
+
+#### Recursos  empresariais
+* Suporte de proxy
+* Gerenciamento de registros de imagens OCI
+
+####  Ponte entre ambientes locais e remotos
+* Conecte e implante em ambientes Kubernetes locais ou remotos
+* Altere o contexto do Kubernetes e escolha seu ambiente de implantação
+
