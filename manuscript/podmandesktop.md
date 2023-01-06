@@ -36,3 +36,7 @@ O Podman Desktop instala, configura e mantém o Podman atualizado em seu ambient
 * Conecte e implante em ambientes Kubernetes locais ou remotos
 * Altere o contexto do Kubernetes e escolha seu ambiente de implantação
 
+## Download
+
+Verifique a página de downloads em [ podman-desktop.io/downloads](https://podman-desktop.io/downloads ).
+
